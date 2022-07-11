@@ -12,7 +12,5 @@ describe('Blog', () => {
         }).contains('My First Post ')
     });
 
-    it('creates a post', () => {
-
-    });
+    it('creates a post');
 });

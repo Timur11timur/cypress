@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::middleware('auth')->get('/home', function () {
+    return view('home');
+});
+
 Route::get('/blog', function () {
     return view('blog', [
         'posts' => Post::all()
