@@ -18,6 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/iframe', function () {
+    return view('iframe');
+});
 
 Route::middleware('auth')->get('/home', function () {
     return view('home');
