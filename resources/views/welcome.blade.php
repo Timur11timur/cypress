@@ -51,7 +51,7 @@
                 iframe.setAttribute('src', '/iframe');
             }
 
-            loadIframe();
+            setTimeout(loadIframe , 1000);
         </script>
     </body>
 </html>
